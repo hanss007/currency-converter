@@ -35,6 +35,7 @@ const calculate = (e) => {
     amountTwo.value =
       amountOne.value *
       CURRENCY_RATES[currencyOne.value][currencyTwo.value].toFixed(2);
+console.log(CURRENCY_RATES[currencyOne.value].toFixed(2));
   }
 };
 
